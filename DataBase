@@ -1,0 +1,6 @@
+create table student(
+    studentId int primary key auto_increment,
+    studentName varchar(50) not null ,
+    studentAge int not null ,
+    studentStatus bit
+)
